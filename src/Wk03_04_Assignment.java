@@ -1,4 +1,7 @@
-import java.util.*; //* import everything in util. util imports methods from a certain class. methods do stuff.
+//import java.util.; //* import everything in util. util imports methods from a certain class. methods do stuff.
+
+import java.util.ArrayList; //type 'import ArrayList' + press ctrl space to autofill 
+import java.util.List; 
 
 public class Wk03_04_Assignment { //open class
 
