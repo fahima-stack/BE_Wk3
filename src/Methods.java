@@ -18,7 +18,7 @@ public class Methods {
 		String fullName = x + " " + y;
 		return fullName; 
 		
-	}
+	} 
 } 
 
 
