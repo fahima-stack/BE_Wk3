@@ -6,7 +6,7 @@ public class Methods {
 		
 		String firstName = "Bob";
 		String lastName = "Ross";
-		String fullName	= createFullName(firstName, lastName); 
+		String fullName	= createFullName(firstName, lastName); //identifier same name as line 18 and it works because they're in different methods. 
 		String fullName2 = createFullName("Sam", lastName);		
 		
 		System.out.println(fullName); //prints Bob Ross
