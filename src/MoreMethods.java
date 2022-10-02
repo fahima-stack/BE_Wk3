@@ -15,8 +15,10 @@ public class MoreMethods {
 //		sumArray(strings); //type safety in java. Can't pass a String array into the method signature like if someone writes instructions on how to wash a car and then someone passes a doughnut into it - can't follow the instructions and get the same outcome. Anytime you call the method, it is the value of its return type. 
 		
 		double[] grades = new double[] {88.7,92.5,100,67.3,78.9};
+		
 		System.out.println(calculateAverage(grades)); //passing grades array through the calculateAverage method. 
 		
+		System.out.println(multiplyString("Hello", 3)); //prints HelloHelloHello; go through i=0,1,2 then stops as i<num so prints 3Hello. 
 		}
 		
 	
@@ -50,6 +52,15 @@ public class MoreMethods {
 	 * Takes a String and an int and returns the String concatenated with itself
 	 * int number of times
 	 */
+	
+	public static String multiplyString(String str, int num) { //means if I pass in hello and 3, it's gonna return hellohellohello in one String
+	 	String result = "";//Can't use enhanced for loop, don't have an array to iterate over. Have to use a traditional for loop. 
+		for (int i = 0; i < num; i++) { 
+			result += str;
+		}
+		return result; 
 	}
+}
+	
 
  	
