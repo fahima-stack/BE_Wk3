@@ -1,5 +1,5 @@
 
-public class MoreArrays {
+public class MoreArrays { //{open class{open method{method}close method}close class}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
