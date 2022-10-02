@@ -7,7 +7,7 @@ public class Arrays {
 	 	String studentName2 = "Jack Smith"; 
 	 	String studentName3 = "Bill Turner"; 
 	 	
-	 	String[] students = new String[3];
+	 	String[] students = new String[3]; //you always use new when you create an object and arrays are objects
 	 	
 	 	students[0] = studentName1;
 		students[1] = studentName2;
