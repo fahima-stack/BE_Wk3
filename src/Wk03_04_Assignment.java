@@ -29,7 +29,7 @@ public class Wk03_04_Assignment { //open class
 		List<Integer> arr=new ArrayList<>();
 		System.out.println(arr.size()); //Prints 0; currently 0 elements as I haven't imported my static Array into the dynamic Array/Array list.
 
-		for (int i=0; i < ages.length; i++) {
+		for (int i = 0; i < ages.length; i++) {
 			arr.add(ages[i]);	
 		} //for loop is not a method, it's an iterator 
 		arr.add(24);
@@ -50,6 +50,32 @@ public class Wk03_04_Assignment { //open class
 		System.out.println("the length of the name is " + name.length()); //prints the length of the name is 3 - the no. of characters in the string, have to use ()
 		int average = sum / size;
 		System.out.println(average); 
+		
+		System.out.println("Question 2b"); 
+		
+		String concatenate = "";
+		
+		for (int i = 0; i < names.length; i++) {
+			concatenate += names[i]; 
+			concatenate += " "; } 
+		System.out.println(concatenate);
+		
+		System.out.println("Question 5");
+		
+		int[] nameLengths = new int[names.length];
+		
+		for (int i = 0; i < nameLengths.length; i++) {
+			nameLengths[i] = names[i].length();
+			
+		System.out.print(nameLengths[i] + " ");
+		}
+		
+		sum = 0;
+		for (int i = 0; i < nameLengths.length; i++) {
+			sum += nameLengths[i];
+		}
+		System.out.println("");
+		System.out.println(sum);
 		
 	} //close method
 
